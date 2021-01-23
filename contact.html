@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="Un texte décrivant notre resaurant">
+    <title>Mon restaurant</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    <div class="header-menu">
+        <header class="header">
+            <h1 class="header-titre">Les quatre saisons</h1>
+            <nav class="header-nav">
+                
+                <a href="index.html" title="Accueil">Accueil</a>
+                <a href="menu.html" title="Voir le menu">Menu</a>
+                <a href="contact.html" title="Nous contacter">Contact</a>
+            </nav>
+        </div>
+    <img src="img/Les quatre saisons.jpg" alt="Les quatre saisons" width="1166" height="527">
+   </header>
+   <article>
+       <section>
+           <div class="where">
+           <h2>Où nous trouver</h2>
+           <p>
+            128 rue de démonstration <br>
+            34000 Montpelier<br>
+            France
+           </p></div>
+           <div class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.1002917819173!2d3.8917437151443193!3d43.60445336360021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af9b70068867%3A0x44d73cbd04cf7560!2s10%20Chemin%20des%20Barques%2C%2034000%20Montpellier!5e0!3m2!1sfr!2sfr!4v1611175140924!5m2!1sfr!2sfr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        
+        <h2>Nous envoyer un email</h2>
+        <form action="contact.html">
+            <div>
+                <label for="email">Votre email</label>
+                <input type="text" required id="email" name="email" placeholder="votre@email.fr">
+            </div>
+            <div>
+                <label for="firstname">Votre prénom</label>
+                <input type="text" required id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea required id="message" name="message" ></textarea>
+            </div>
+            <input type="checkbox">
+            <button type="submit">Envoyer votre email</button>
+        </form>
+        
+        
+        </section>
+       <footer>
+          <address>128 rue de démonstration 34000 Montpelier 
+            France </address> 
+       </footer>
+   </article>
+</body>
+</html>
