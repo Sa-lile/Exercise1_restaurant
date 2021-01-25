@@ -19,13 +19,12 @@ position: fixed;
   height:auto;
   color:white;
 }
-.header img{
-  width: 70%;
-  height:  50%;
+img{
+  width: 100%;
+  height:  auto;
   margin-top: 10px;
-  text-align: center;
-}
 
+}
 .header-nav{
   height:0;
   top: 0;
@@ -51,10 +50,31 @@ position: fixed;
  text-transform: capitalize;
  width: 100%;
 }
-
+h1 {
+font-family: cursive;
+ color:white;
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center;
+ } 
 article {
   background-color: lightgray;
  margin:0;
+}
+.box1{
+  padding: 0.5em 1em;
+  margin: 5px;
+  color: #5d627b;
+  background: white;
+  border-top: solid 7px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  margin: 50px; 
+  padding: 0;
+  width: 50%;
+}
+.text-box1 {
+  text-align: center;
+  width: 100%;
 }
 h2{
   color:rgb(32, 32, 117);
