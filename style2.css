@@ -58,26 +58,30 @@ font-family: cursive;
  text-align: center;
  } 
 article {
-  background-color: lightgray;
+ background-color: lightgray;
  margin:0;
 }
-.box1{
+.box1, .box2{
   padding: 0.5em 1em;
-  margin: 5px;
   color: #5d627b;
   background: white;
   border-top: solid 7px #5d627b;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   margin: 50px; 
-  padding: 0;
+  /* padding: 0; */
   width: 50%;
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+  flex-wrap: wrap;
 }
-.text-box1 {
+.text-box1, .text-box2{
   text-align: center;
   width: 100%;
+
 }
 h2{
-  color:rgb(32, 32, 117);
+ color:rgb(32, 32, 117);
  text-shadow: 3px 3px 5px #aaa;
  font-style: italic;
 }
