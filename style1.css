@@ -34,6 +34,7 @@ img {
 body {
   background-color: lightgray;
   margin:0;
+  color: rgb(75, 73, 73);
  }
 .header-nav{
   height:0;
