@@ -21,9 +21,13 @@ position: fixed;
 }
 img {
   width: 100%;
-  height:  auto;
-  margin-top: 10px;
-
+  height:  100%;
+  margin-top: 20px;
+  margin: auto;
+  margin-left : auto; 
+  text-align: center;
+  display: block;
+  border-radius: 50px;
 }
 .header-nav{
   height:0;
