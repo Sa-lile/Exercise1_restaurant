@@ -82,7 +82,11 @@ body {
 .text-box1, .text-box2,.text-box3 {
   text-align: center;
   width: 100%;
+  padding-bottom: 2em;
 
+}
+td {
+  padding-bottom: 2em;
 }
 h2{
  color:rgb(32, 32, 117);
