@@ -27,20 +27,12 @@
 }
 img {
 height: 700px;
-margin-top: 40px;
+width: 100%;
 position: center;
 background-repeat: no-repeat;
+background-image: cover;
 z-index: 1;
-}
-.center {
- display: block;
- margin-left: auto;
- margin-right:auto;
- width:40%;
- border-radius: 30px;
- border: 2px solid grey;
-
-  
+opacity: 0.8;
 }
 
 .header-nav{
